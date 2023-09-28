@@ -1,42 +1,75 @@
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8"> 
-		<title>Space Exploration & Astronomy</title>
-	</head>
-	<body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Space Exploration & Astronomy</title>
+</head>
+
+<body>
+    <header>
         <img src=img/header.jpg alt="Planets in Space">
-		<h1>Space Exploration & Astronomy</h1>
+        <h1>Space Exploration & Astronomy</h1>
+        <nav>
+            <ul>
+                <li><a href="#top-articles">Top Articles</a></li>
+                <li><a href="#latest-news">Latest News</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <img src=img/spaceship-launching.jpg alt="Spaceship Launching">
-	    	<h2>Underfunded R&D became 1st to land rover on an 
-                unexplored part of the moon!</h2>
-		<p>
-			India became the fourth nation to land successfully 
-            on the moon and the first to land and deploy a 
-            rover in the southern polar region, an area of 
-            keen scientific interest.
-		</p>
-        <p>
-            With this moon landing, it opens up a possibility
-            for eventually a habitat of some sort, and is something
-            that is very attractive to expaning human life outside
-            of Earth.
-        </p>
-            <h2>Japan launches moon lander and X-ray observatory</h2>
-        <p>
-            Japan sent a new X-ray space telescope into low Earth orbit and
-             a first, small lunar lander on its way to the moon with a single 
-             launch.
-        </p>
-        <img src="img/japan-x-ray.jpg" alt="Japan Space Launch">
+    <main>
+        <section id="top-articles">
+            <article>
+                <figure>
+                    <img src=img/spaceship-launching.jpg alt="Spaceship Launching">
+                    <figcaption>Initial Lauch of India's Chandrayaan-3</figcaption>
+                </figure>
 
+
+                <h2>Underfunded R&D became 1st to land rover on an
+                    unexplored part of the moon!
+                </h2>
+                <p>
+                    India became the fourth nation to land successfully
+                    on the moon and the first to land and deploy a
+                    rover in the southern polar region, an area of
+                    keen scientific interest.
+                </p>
+                <p>
+                    With this moon landing, it opens up a possibility
+                    for eventually a habitat of some sort, and is something
+                    that is very attractive to expaning human life outside
+                    of Earth.
+                </p>
+            </article>
+
+            <article>
+                <h2>Japan launches moon lander and X-ray observatory</h2>
+                <p>
+                    Japan sent a new X-ray space telescope into low Earth orbit and
+                    a first, small lunar lander on its way to the moon with a single
+                    launch.
+                </p>
+                <figure>
+                    <img src="img/japan-x-ray.jpg" alt="Japan Space Launch">
+                    <figcaption>Launch of HII-A rocket from Tanegashima Space Center</figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <section id="latest-news">
         <h1>Latest News</h1>
-            <h2>James Webb Space Telescope</h2>
-        <p>The Webb was launched on 25 December 2021 on an Ariane 5 rocket from Kourou, 
-            French Guiana, and arrived at the Sun Earth L2 Lagrange point in January 2022. 
-            The first Webb image was released to the public via a press conference on 
+        <h2>James Webb Space Telescope</h2>
+        <p>The Webb was launched on 25 December 2021 on an Ariane 5 rocket from Kourou,
+            French Guiana, and arrived at the Sun Earth L2 Lagrange point in January 2022.
+            The first Webb image was released to the public via a press conference on
             11 July 2022.
         </p>
+        </section>
+
+        <section id="links">
         <h1>Links for other Space News</h1>
         <ul>
             <li><a href="https://www.nasa.gov/">Nasa</a></li>
@@ -44,15 +77,27 @@
             <li><a href="https://www.space.com/">Space.com</a></li>
         </ul>
         <img src="img/nasa-logo.png" alt="Nasa Logo">
+        </section>
+    </main>
 
+    <aside>
         <h2>Interested in space?</h2>
         <p>We want to know more about your interest in space.</p>
 
-        <form action="https://api.sheetmonkey.io/form/tuDJM67cMcUuvnVjVzPVXx"method="POST">
-            <label for="name">Name:</label><input id="name" type="text" name="visitor_name" placeholder="Write your name"><br></br>
-            <label for="email">Email:</label><input id="email" type="text" name="visitor_email" placeholder="Write your email"><br></br>
-            <label for="dob">Date of Birth:</label><input id="dob" name="visitor_dob" placeholder="Write your Date of Birth"><br></br>
+        <form action="https://api.sheetmonkey.io/form/tuDJM67cMcUuvnVjVzPVXx" method="POST">
+            <label for="name">Name:</label><input id="name" type="text" name="visitor_name"
+                placeholder="Write your name"><br></br>
+            <label for="email">Email:</label><input id="email" type="text" name="visitor_email"
+                placeholder="Write your email"><br></br>
+            <label for="dob">Date of Birth:</label><input id="dob" name="visitor_dob"
+                placeholder="Write your Date of Birth"><br></br>
             <input type="submit" value="Submit">
         </form>
-  	</body>
+    </aside>
+
+        <footer>
+            &copy; 2023 Bang Space Research Group
+        </footer>
+</body>
+
 </html>
