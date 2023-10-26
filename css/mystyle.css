@@ -1,3 +1,35 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+h1 {
+    font-size: 6em;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+header img {
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto 50px auto;
+}
+
+.activity-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.activity-col {
+    padding: 10px;
+}

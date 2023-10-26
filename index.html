@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Space Exploration & Astronomy</title>
-    <link rel="stylesheet" href="/css/mystyle.css">
+    <link rel="stylesheet" href="css/mystyle.css">
 </head>
 
 <body>
@@ -13,21 +13,23 @@
         <h1>Space Exploration & Astronomy</h1>
         <nav>
             <ul>
-                <li><a href="#top-articles">Top Articles</a></li>
-                <li><a href="#links">Links</a></li>
+                <li><a href="#top-articles"><span class="bold">Top Articles</span></a></li>
+                <li><a href="#links"><span class="bold">Links</span></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="top-articles">
-            <article>
+        <section class="container" id="top-articles">
+            <article class="activity-row">
+                <div class="activity-col">
                 <figure>
                     <img src=img/spaceship-launching.jpg alt="Spaceship Launching">
                     <figcaption>Initial Lauch of India's Chandrayaan-3</figcaption>
                 </figure>
+                </div>
 
-
+                <div>
                 <h2>Underfunded R&D became 1st to land rover on an
                     unexplored part of the moon!
                 </h2>
@@ -44,6 +46,7 @@
                     of Earth.
                 </p>
             </article>
+                 </div>
 
             <article>
                 <h2>Japan launches moon lander and X-ray observatory</h2>
@@ -72,9 +75,9 @@
         <section id="links">
             <h1>Links for other Space News</h1>
             <ul>
-                <li><a href="https://www.nasa.gov/">Nasa</a></li>
-                <li><a href="https://spacenews.com/">Space News</a></li>
-                <li><a href="https://www.space.com/">Space.com</a></li>
+                <li><a href="https://www.nasa.gov/"><span class="bold">Nasa</span></a></li>
+                <li><a href="https://spacenews.com/"><span class="bold">Space News</span></a></li>
+                <li><a href="https://www.space.com/"><span class="bold">Space.com</span></a></li>
             </ul>
             <img src="img/nasa-logo.png" alt="Nasa Logo">
         </section>
@@ -85,11 +88,11 @@
         <p>We want to know more about your interest in space.</p>
 
         <form action="https://api.sheetmonkey.io/form/tuDJM67cMcUuvnVjVzPVXx" method="POST">
-            <label for="name">Name:</label><input id="name" type="text" name="visitor_name"
+            <label class="bold" for="name">Name:</label><input id="name" type="text" name="visitor_name"
                 placeholder="Write your name"><br></br>
-            <label for="email">Email:</label><input id="email" type="text" name="visitor_email"
+            <label class="bold" for="email">Email:</label><input id="email" type="text" name="visitor_email"
                 placeholder="Write your email"><br></br>
-            <label for="dob">Date of Birth:</label><input id="dob" name="visitor_dob"
+            <label class="bold" for="dob">Date of Birth:</label><input id="dob" name="visitor_dob"
                 placeholder="Write your Date of Birth"><br></br>
             <input type="submit" value="Submit">
         </form>
