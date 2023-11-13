@@ -12,6 +12,10 @@ h2 {
     font-variant: small-caps;
 }
 
+footer {
+    text-align: center;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -23,6 +27,8 @@ header img {
 .container {
     max-width: 960px;
     margin: 0 auto 50px auto;
+
+    border-bottom: 1px solid grey;
 }
 
 .activity-row {
@@ -33,3 +39,54 @@ header img {
 .activity-col {
     padding: 10px;
 }
+
+.activity-col img {
+    border-radius: 50%;
+}
+
+
+/* Navigation menu */
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+
+nav ul {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    list-style-type: none;
+
+    display: inline-block;
+    padding: 10px;
+}
+
+/* unvisited link */
+nav a:link {
+  color: #DCDCDC;
+}
+
+/* visited link */
+nav a:visited {
+  color: #DCDCDC;
+}
+
+/* mouse over link */
+nav a:hover {
+  color: white;
+}
+
+/* selected link */
+nav a:active {
+  color: white;
+}    
